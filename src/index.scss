@@ -20,13 +20,15 @@ code {
   box-sizing: border-box;
 }
 
-/* .Music {
-  min-height: 100vh;
-  padding: 120px 0;
-  background-color: #f6f6f6;
-  color: #101010; 
-  text-align: center;
-} */
+input {
+  border-style: solid;
+  border-width: 1px;
+}
+
+textarea{
+  border-style: solid;
+  border-width: 1px;
+}
 
 .Song-Thumbnail {
   width: 150px;
@@ -35,9 +37,6 @@ code {
   object-fit: cover;
 }
 
-.rotate-center {
-
-}
 
 .Song-Title {
   text-transform: capitalize;
@@ -77,4 +76,7 @@ code {
     height: 22px;
   }
 }
+
+
+
 
